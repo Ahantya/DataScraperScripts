@@ -1,2 +1,2 @@
-# RedditDataScraper
-Scrapes Reddit Data on Chosen Subreddit
+# DataScraperScripts
+Scraping Data from Websites
