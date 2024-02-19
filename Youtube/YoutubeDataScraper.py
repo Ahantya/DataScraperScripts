@@ -23,7 +23,7 @@ def fetchdetails(videoid):
         videoinfo['channeltitle'] = item['snippet']['channelTitle']
         videoinfo['views'] = item['statistics']['viewCount']
         videoinfo['likes'] = item['statistics'].get('likeCount', 0)
-        # no point in getting dislikes :
+        # no point in getting dislikes :/
         videoinfo['comments'] = item['statistics'].get('commentCount', 0)
 
     return videoinfo
