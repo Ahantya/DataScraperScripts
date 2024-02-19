@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 import json
 
-apikey = '' # create your own!
+apikey = '' # get your own!
 
 
 def fetchdetails(videoid):
