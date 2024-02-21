@@ -7,12 +7,12 @@ allplayerinfo = dict()
 for year in range(0, 24):
     url = f'https://www.pro-football-reference.com/years/20{year:02d}/passing.htm'
     tables = pd.read_html(url)
-    passing_stats_df = tables[0]
+    passingstats = tables[0]
 
-    players = passing_stats_df['Player']
-    yards = passing_stats_df['Yds']
-    ptd = passing_stats_df['TD']
-    inter = passing_stats_df['Int']
+    players = passingstats['Player']
+    yards = passingstats['Yds']
+    ptd = passingstats['TD']
+    inter = passingstats['Int']
 
     teams = list(zip(players, yards, ptd, inter))
 
