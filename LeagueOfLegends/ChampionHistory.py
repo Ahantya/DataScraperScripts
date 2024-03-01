@@ -27,7 +27,7 @@ def getChampionName(matchID, playerPuuid, apiKey):
 
 def main():
     apiKey = "" # get your own!
-    summonerName = "MrOrangyy"
+    summonerName = "" # you can do your own name!!
 
     playerID, playerPuuid = getSummonerInfo(summonerName, apiKey)
     matches = getRecentMatches(playerPuuid, apiKey)
