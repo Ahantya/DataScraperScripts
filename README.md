@@ -1,2 +1,2 @@
 # DataScraperScripts
-Scraping Data from Websites
+Scraping Data from Websites / Apps / Games
